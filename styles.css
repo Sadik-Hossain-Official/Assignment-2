@@ -17,7 +17,8 @@ html{
 }
 /* common styles */
 .title-font-size{
-  font-size:3.125rem;
+  font-size:2rem;
+  font-weight: bold;
 }
 .color{
   color: orangered;
@@ -26,13 +27,16 @@ html{
   max-width:1140px;
   margin: 0 auto;
 }
+.text-center{
+  text-align: center;
+}
 .button{
   background-color: orangered;
   color: white;
   border: none;
-  padding:1.18rem;
+  
   width:10rem;
-  height:3.125rem;
+  height:2rem;
 }
 .top{
   margin-top: 0;
@@ -75,6 +79,18 @@ html{
   font-weight: bold;
 }
 /* main styles */
+main{
+  margin-top:7rem;
+}
+/* plants section */
+.plants{
+  padding-bottom:1rem;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap:1.5rem;
+}
 
 
 
@@ -102,7 +118,15 @@ html{
   .banner-img{
     width: 100%;
   }
-  /* main section styles */
-
+  /* plants section */
+  .cards{
+    width:100%;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+  }
+  .cards img{
+    width: 100%;
+  }
+  
 
 }
