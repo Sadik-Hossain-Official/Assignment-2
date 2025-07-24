@@ -1,3 +1,7 @@
+/* root font size */
+html{
+  font-size: calc(1vw + 0.5rem)
+}
 /* Google font */
 .noto-serif{
   font-family: "Noto Serif", serif;
@@ -10,4 +14,89 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+/* common styles */
+.title-font-size{
+  font-size:3.125rem;
+}
+.color{
+  color: orangered;
+}
+.center-align{
+  max-width:1140px;
+  margin: 0 auto;
+}
+.button{
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding:1.18rem;
+  width:10rem;
+  height:3.125rem;
+}
+.top{
+  margin-top: 0;
+}
+.bottom{
+  margin-bottom:0;
+}
+.nav-bar a,.button:hover{
+   cursor:pointer;
+}
+/* header styles */
+/* navbar */
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar ul{
+   display: flex;
+   gap: 3rem;
+}
+.nav-bar li{
+  list-style: none;
+}
+.nav-bar li a{
+  text-decoration:none;
+  color: black;
+}
+.li-color{
+  color: #8987A1;
+}
+/* banner */
+.banner{
+  display: flex;
+  align-items: center;
+  margin-top:7rem;
+}
+.banner-title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.banner-img{
+  padding-bottom:1rem;
+}
+/* main styles */
+
+
+
+
+
+/* media queries */
+@media screen and (max-width:576px) {
+  .center-align{
+    max-width: 100%;
+  }
+  /* navbar */
+  .remove{
+    display:none;
+  }
+  .nav-bar{
+    justify-content: start;
+  }
+  .nav-bar img{
+    width:40%;
+  }
+  
 }
