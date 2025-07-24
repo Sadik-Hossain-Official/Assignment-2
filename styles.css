@@ -79,7 +79,7 @@ html{
   font-weight: bold;
 }
 /* main styles */
-main{
+.margin-top-gap{
   margin-top:7rem;
 }
 /* plants section */
@@ -91,7 +91,27 @@ main{
   grid-template-columns: repeat(4,1fr);
   row-gap:1.5rem;
 }
-
+/* plants lover section */
+.plant-lover-section{
+  margin-top: 7rem;
+}
+.plant-lover{
+  display:flex;
+  gap: 1.5rem;
+  align-items: center;
+ 
+}
+#batch-img{
+  width:200px;
+ position: absolute;
+ top: 90rem;
+ left:25rem;
+}
+.list{
+  margin-bottom: 1rem;
+  padding-right:1rem;
+}
+/* latest deal section */
 
 
 
@@ -127,6 +147,14 @@ main{
   .cards img{
     width: 100%;
   }
-  
+  /* plants lover section */
+.plant-lover{
+  flex-direction: column;
+}
+#batch-img{
+  display: none;
+}
+/* latest deal section */
+
 
 }
