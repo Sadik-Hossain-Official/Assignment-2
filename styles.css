@@ -74,9 +74,6 @@ html{
   font-size: 3rem;
   font-weight: bold;
 }
-.banner-img{
-  padding-bottom:1rem;
-}
 /* main styles */
 
 
@@ -105,5 +102,7 @@ html{
   .banner-img{
     width: 100%;
   }
-  
+  /* main section styles */
+
+
 }
