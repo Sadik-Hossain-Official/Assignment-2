@@ -112,8 +112,59 @@ html{
   padding-right:1rem;
 }
 /* latest deal section */
+.latest-deal-cards a{
+  color: white;
+  text-decoration:none;
+}
+.deal-card1{
+  background-image: url(images/deal-bloom.png);
+  border-radius: 1.5rem;
+  background-repeat: no-repeat;
+}
+.deal-card2{
+  background-image: url(images/deal-ana.png);
+  border-radius:1.5rem;
+  background-repeat: no-repeat;
+}
+.deal-card3{
+  background-image: url(images/deal-zabo.png);
+  border-radius:1.5rem;
+  background-repeat: no-repeat;
+}
+.deal-card1-2{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+}
+.latest-deal-cards{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: white;
+  height: 20rem;
+  padding-bottom:1.5rem;
 
-
+}
+/* Joint section */
+.join{
+  background-image: url(images/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding:8rem 0rem;
+}
+.join h3{
+  color: white;
+}
+input[type="email"]{
+    width:20rem;
+    height:1.82rem;
+    color: #8987A1;
+   
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* media queries */
@@ -154,7 +205,11 @@ html{
 #batch-img{
   display: none;
 }
+.pl-image{
+  width: 100%;
+}
 /* latest deal section */
+
 
 
 }
