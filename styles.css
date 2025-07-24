@@ -93,10 +93,17 @@ html{
     display:none;
   }
   .nav-bar{
-    justify-content: start;
+    justify-content:space-between;
   }
   .nav-bar img{
-    width:40%;
+    width:100%;
+  }
+  /* banner */
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-img{
+    width: 100%;
   }
   
 }
