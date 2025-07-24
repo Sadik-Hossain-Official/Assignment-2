@@ -151,7 +151,6 @@ html{
   padding-top:5rem;
   
 }
-
 /* Joint section */
 .join{
   background-image: url(images/news-letter-bg.png);
@@ -173,6 +172,29 @@ input[type="email"]{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* footer part */
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom:3rem;
+}
+.description{
+    max-width:30%;
+}
+.links{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:2.5rem;
+}
+.links a{
+  text-decoration: none;
+}
+.icons{
+  display: flex;
+  align-items:start;
+  gap: 1rem;
 }
 
 
@@ -225,6 +247,26 @@ input[type="email"]{
 .ld-card3{
   margin-top:0.5rem;
   padding:2rem;
+}
+/* footer part */
+.footer{
+  margin-top:4rem;
+  margin-left:1.5rem;
+  flex-direction: column;
+}
+.description{
+  max-width: 90%;
+}
+.description img{
+  width: 50%;
+}
+.links{
+  margin-top:1.5rem;
+}
+.icons{
+  margin-top: 3.125rem;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 
