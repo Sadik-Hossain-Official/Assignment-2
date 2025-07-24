@@ -218,7 +218,14 @@ input[type="email"]{
   width: 100%;
 }
 /* latest deal section */
-
+.ld-cards{
+  display: block;
+  width:100%;
+}
+.ld-card3{
+  margin-top:0.5rem;
+  padding:2rem;
+}
 
 
 }
